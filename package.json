@@ -1,0 +1,25 @@
+{
+  "name": "win-animate",
+  "version": "1.0.0",
+  "description": "Plugin WinnetouJs",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kauesedrez/win-animate.git"
+  },
+  "keywords": [
+    "winnetoujs",
+    "winnetou",
+    "javascript",
+    "plugin"
+  ],
+  "author": "Winnetou Kaue <kaue.sedrez@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kauesedrez/win-animate/issues"
+  },
+  "homepage": "https://github.com/kauesedrez/win-animate#readme"
+}

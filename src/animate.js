@@ -1,5 +1,3 @@
-import { Winnetou as W, Constructos as C } from "../winnetou.js";
-
 /**
  * Create css animations
  * Credits to Copyright (c) 2020 Daniel Eden from https://animate.style

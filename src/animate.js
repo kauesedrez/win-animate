@@ -4,15 +4,10 @@
  * @param  {string} element tag("#myDiv"), class(".selectors") or tag("p")
  * @param  {string} animation animation name
  * @param  {string=} speed default **fast**
- * @param  {string=} prefix= default **animate__**
  */
-export function animate(
-  element,
-  animation,
-  speed = "fast",
-  prefix = "animate__"
-) {
+export function animate(element, animation, speed = "fast") {
   return new Promise((resolve, reject) => {
+    const prefix = "animate__";
     const animationName = `${prefix}${animation}`;
     var node = document.querySelector(element);
 

@@ -5,7 +5,7 @@
  * @param  {string} animation animation name
  * @param  {string=} speed default **fast**
  */
-export function animate(element, animation, speed = "fast") {
+export function anim(element, animation, speed = "fast") {
   return new Promise((resolve, reject) => {
     const prefix = "animate__";
     const animationName = `${prefix}${animation}`;
